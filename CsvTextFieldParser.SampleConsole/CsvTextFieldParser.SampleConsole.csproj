@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{0AC56627-6DA7-4900-8209-E5927434CE1C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SampleConsole</RootNamespace>
+    <TargetFramework>net472</TargetFramework>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CsvTextFieldParser\CsvTextFieldParser.csproj" />
+  </ItemGroup>
+</Project>
